@@ -1,0 +1,418 @@
+.texto1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.textoQM{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+.H6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.textoContacto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.fuenteParrafo{
+    text-align: justify;
+}
+.logos{
+    width: 100px;
+    height: 100px;
+}
+.maps{
+    width: 50px;
+    height: 50px;
+}
+h4{
+    color: white;
+    font-family: arial;
+}
+
+@media only screen and (min-width: 1200px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(37, 211, 241);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(37, 211, 241);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px){        
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(37, 211, 241);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(37, 211, 241);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: 600;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(37, 211, 241);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(37, 211, 241);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: 400;
+    }
+    
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(37, 211, 241);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(37, 211, 241);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+ 
+}
+
+@media only screen and (max-width: 479px){
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(255, 255, 255);
+    }
+
+    .cabecera{
+        background-color: rgb(37, 211, 241);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(37, 211, 241);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+
+}
